@@ -1,0 +1,13 @@
+
+public class ChildPoint extends EntryPoint{
+
+	int getCall() {		
+		return super(level);
+	}
+
+	void setCall(int level) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

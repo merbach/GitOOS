@@ -1,0 +1,11 @@
+
+public class RunPoint {
+
+	public static void main(String[] args) {
+		
+		//EntryPoint ep = new EntryPoint();
+		ChildPoint cp = new ChildPoint();
+		
+	}
+
+}

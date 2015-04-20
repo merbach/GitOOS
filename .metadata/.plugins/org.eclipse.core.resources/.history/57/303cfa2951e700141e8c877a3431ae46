@@ -1,0 +1,10 @@
+
+public class RunPoint {
+
+	public static void main(String[] args) {
+		
+		EntryPoint ep = new EntryPoint();
+		
+	}
+
+}

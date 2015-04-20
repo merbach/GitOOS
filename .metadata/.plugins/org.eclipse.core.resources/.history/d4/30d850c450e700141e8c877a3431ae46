@@ -1,0 +1,13 @@
+
+public class ChildPoint extends EntryPoint{
+
+	int getCall() {		
+		return this.level;
+	}
+
+	void setCall(int level) {
+		this.level = level;
+		
+	}
+
+}
