@@ -3,6 +3,7 @@ public abstract class EntryPoint {
 
 	protected int level;
 	protected String comment;
+	private int key = 351;
 	
 	abstract int getCall();
 	abstract void setCall(int level);
@@ -19,7 +20,6 @@ public abstract class EntryPoint {
 		}			
 		return 0;
 	}
-	
-	
+		
 
 }
