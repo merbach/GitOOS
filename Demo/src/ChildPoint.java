@@ -21,7 +21,7 @@ public class ChildPoint extends EntryPoint{
 	
 	void addFeature_C(String Ch){
 		char tmp = Ch.toCharArray()[0];
-		System.out.println("String information: "+Ch);
+		System.out.println("String information: "+Ch + " saved.");
 		
 	}
 
