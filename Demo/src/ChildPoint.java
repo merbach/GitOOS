@@ -16,7 +16,13 @@ public class ChildPoint extends EntryPoint{
 	
 	void printAll(){
 		System.out.println("Updated InfoSet: "+ this.level + ", "+ this.comment + ", "+ this);
-		System.out.println("================================================================");
+		System.out.println("================================================================");		
+	}
+	
+	void addFeature_C(String Ch){
+		char tmp = Ch.toCharArray()[0];
+		System.out.println("String information: "+Ch);
+		
 	}
 
 }
