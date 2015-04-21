@@ -15,7 +15,7 @@ public class ChildPoint extends EntryPoint{
 	
 	void setComment(String comm){
 		this.comment = comm;
-		System.out.println("No information here");
+		System.out.println("Bugfix.No information here");
 	}
 	
 	void printAll(){
