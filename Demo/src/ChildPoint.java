@@ -1,5 +1,9 @@
 
 public class ChildPoint extends EntryPoint{
+	
+	void muteCall(){
+		this.level = 0;
+	}
 
 	int getCall() {		
 		return this.level;
