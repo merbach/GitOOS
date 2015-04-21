@@ -7,11 +7,13 @@ public class ChildPoint extends EntryPoint{
 
 	void setCall(int level) {
 		System.out.println("Set Level to: "+ level);
+		// Commentary input
 		this.level = level;		
 	}
 	
 	void setComment(String comm){
 		System.out.println("Set Comment to: "+ comm);
+		// Commentary input
 		this.comment = comm;
 	}
 	
