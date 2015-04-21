@@ -5,6 +5,10 @@ public class ChildPoint extends EntryPoint{
 		return this.level;
 	}
 
+	void maxCall(){
+		this.level = 99;
+	}
+	
 	void setCall(int level) {
 		System.out.println("Set Level to: "+ level);
 		// Commentary input
