@@ -11,10 +11,11 @@ public class ChildPoint extends EntryPoint{
 	
 	void setComment(String comm){
 		this.comment = comm;
+		System.out.println("No information here");
 	}
 	
 	void printAll(){
-		System.out.println("InfoSet: "+ this.level + ", "+ this.comment + ", "+ this);
+		System.out.println("Updated InfoSet: "+ this.level + ", "+ this.comment + ", "+ this);
 	}
 
 }
