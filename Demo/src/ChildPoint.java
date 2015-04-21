@@ -6,6 +6,7 @@ public class ChildPoint extends EntryPoint{
 	}
 
 	void setCall(int level) {
+		System.out.println("Set Level to: "+ level);
 		this.level = level;		
 	}
 	
