@@ -16,6 +16,7 @@ public class ChildPoint extends EntryPoint{
 	
 	void printAll(){
 		System.out.println("Updated InfoSet: "+ this.level + ", "+ this.comment + ", "+ this);
+		System.out.println("================================================================");
 	}
 
 }
