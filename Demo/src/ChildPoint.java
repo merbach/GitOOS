@@ -10,6 +10,7 @@ public class ChildPoint extends EntryPoint{
 	}
 	
 	void setComment(String comm){
+		System.out.println("Set Comment to: "+ comm);
 		this.comment = comm;
 	}
 	
